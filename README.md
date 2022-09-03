@@ -33,7 +33,7 @@
 
   ## Additional Info:
   - Github: [AugustusXI](https://github.com/AugustusXI)
-  - Repo: [note-taker](https://github.com/note-taker)
+  - Repo: [note-taker](https://github.com/AugustusXI/note-taker)
   - Email:  
 
   ## Screenshots:
