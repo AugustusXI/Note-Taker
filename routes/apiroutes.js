@@ -4,10 +4,12 @@ const uniqid = require("uniqid");
 
 // get the notes from the "db" i.e. json file
 router.get("/notes", function (req, res) {
+  console.log("ooooooooooh hey there");
   fs.readFile("./db/db.json", "utf-8", (err, data) => {
     if (err) throw err;
     const parsedData = JSON.parse(data);
     res.status(200).json(parsedData);
+    console.log(parsedData);
   });
 });
 // post request for a new note
