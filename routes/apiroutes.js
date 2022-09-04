@@ -2,7 +2,7 @@ const fs = require("fs");
 const router = require("express").Router();
 const uniqid = require("uniqid");
 
-// get the notes from the "db"
+// get the notes from the "db" i.e. json file
 router.get("/notes", function (req, res) {
   fs.readFile("./db/db.json", "utf-8", (err, data) => {
     if (err) throw err;
